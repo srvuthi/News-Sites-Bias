@@ -2,7 +2,7 @@ import requests
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 def get_news_sentiment(news_source, country):
-    api_key = "678ef97c72b14973bc93101457789383"  # Replace with your actual API key
+    api_key = "your_api_key"  # Replace with your actual API key
     url = f"https://newsapi.org/v2/everything?q={country}&sources={news_source}&apiKey={api_key}"
 
     response = requests.get(url).json()
