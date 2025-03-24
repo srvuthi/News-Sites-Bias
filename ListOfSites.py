@@ -1,7 +1,7 @@
 import requests
 
 # Replace with your actual API key
-api_key = "678ef97c72b14973bc93101457789383"
+api_key = "your_api_key"
 url = f"https://newsapi.org/v2/top-headlines/sources?apiKey={api_key}"
 
 response = requests.get(url)
